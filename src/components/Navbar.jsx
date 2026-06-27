@@ -10,7 +10,7 @@ import {
 } from "react-icons/hi";
 
 import "./../styles/navbar.css";
-import logo from "../images/Logo1.png";
+import logo from "../images/Logo2.png";
 
 function Navbar() {
 
@@ -122,7 +122,7 @@ function Navbar() {
           </a>
 
           <a
-            href="tel:8433177003"
+            href="tel:7718819090"
             className="call-btn shop-btn"
           >
             <FaStore />

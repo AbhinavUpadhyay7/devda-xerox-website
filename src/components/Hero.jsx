@@ -45,7 +45,7 @@ function Hero() {
             </a>
 
             <a
-              href="tel:8433177003"
+              href="tel:7718819090"
               className="shop-btn"
             >
               <FaStore />

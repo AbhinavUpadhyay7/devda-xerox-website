@@ -29,9 +29,9 @@ display:block;
 }
 
 .container{
-width:90%;
-max-width:1200px;
-margin:auto;
+    width:115%;
+    max-width:1800px;
+    margin:auto;
 }
 
 section{

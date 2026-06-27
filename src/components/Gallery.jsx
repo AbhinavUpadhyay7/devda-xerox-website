@@ -9,6 +9,7 @@ import v6 from "../images/v6.mp4";
 import v7 from "../images/v7.mp4";
 import v8 from "../images/v8.mp4";
 import v9 from "../images/v9.mp4";
+import v10 from "../images/v10.mp4";
 
 const videos = [
   {
@@ -24,9 +25,9 @@ const videos = [
     video: v2,
   },
   {
-    title: "Photo Printing",
+    title: "Black & White Prints",
     description:
-      "High resolution glossy and matte photo printing.",
+      "High-quality black & white printing for documents, reports, and forms.",
     video: v9,
   },
   {
@@ -48,15 +49,15 @@ const videos = [
     video: v4,
   },
   {
-    title: "Flex & Banner Printing",
+    title: "Trophy Sticker Printing",
     description:
-      "Indoor and outdoor flex/banner printing.",
+      "High-quality custom trophy stickers for awards, events, and branding.",
     video: v7,
   },
   {
-    title: "Rubber Stamp",
+    title: "Custom Medals",
     description:
-      "Urgent rubber stamp making service.",
+      "Premium-quality medals for sports events, competitions, schools, and corporate awards.",
     video: v8,
   },
   {
@@ -64,6 +65,12 @@ const videos = [
     description:
       "All size lamination and spiral binding services.",
     video: v3,
+  },
+  {
+    title: "Rubber Stamp Making",
+    description:
+      "Custom rubber stamps for offices, businesses, schools, and personal use.",
+    video: v10,
   },
 ];
 

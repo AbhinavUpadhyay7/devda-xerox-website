@@ -94,8 +94,8 @@ function About() {
               <div>
                 <h4>Owner Contact</h4>
 
-                <a href="tel:7718819090">
-                  7718819090
+                <a href="tel:9892661010">
+                  9892661010
                 </a>
               </div>
             </div>
@@ -105,8 +105,8 @@ function About() {
               <div>
                 <h4>Shop Contact</h4>
 
-                <a href="tel:8433177003">
-                  8433177003
+                <a href="tel:7718819090">
+                  7718819090
                 </a>
               </div>
             </div>

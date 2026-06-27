@@ -62,7 +62,7 @@ Call Owner
 
 <a
 
-href="tel:8433177003"
+href="tel:7718819090"
 
 className="cta-shop"
 
@@ -246,8 +246,8 @@ Contact
 
               <FaStore />
 
-              <a href="tel:8433177003">
-                Shop : 8433177003
+              <a href="tel:7718819090">
+                Shop : 7718819090
               </a>
 
             </p>
