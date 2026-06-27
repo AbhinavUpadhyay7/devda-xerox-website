@@ -1,0 +1,325 @@
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+    background:#0f172a;
+    color:#fff;
+    margin-top:80px;
+}
+
+/* ===========================
+   CTA SECTION
+=========================== */
+
+.footer-cta{
+    background:linear-gradient(90deg,#0d6efd,#2563eb);
+    padding:45px 0;
+}
+
+.footer-cta-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+.footer-cta h2{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.footer-cta p{
+    color:#e9eefc;
+    line-height:1.7;
+    max-width:650px;
+}
+
+.cta-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.cta-owner,
+.cta-shop{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:15px 24px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.cta-owner{
+    background:#fff;
+    color:#0d6efd;
+}
+
+.cta-shop{
+    background:#FFD43B;
+    color:#222;
+}
+
+.cta-owner:hover,
+.cta-shop:hover{
+    transform:translateY(-4px);
+}
+
+/* ===========================
+   MAIN FOOTER
+=========================== */
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1.3fr 1.7fr;
+    gap:50px;
+    padding:70px 0;
+}
+
+.footer-column h3{
+    font-size:22px;
+    margin-bottom:25px;
+    position:relative;
+}
+
+.footer-column h3::after{
+    content:"";
+    width:55px;
+    height:3px;
+    background:#FFD43B;
+    display:block;
+    margin-top:10px;
+    border-radius:20px;
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.footer-logo{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.footer-logo span{
+    color:#4ea1ff;
+}
+
+.footer-tagline{
+    color:#FFD43B;
+    font-style:italic;
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+.footer-about{
+    color:#cbd5e1;
+    line-height:1.9;
+    font-size:15px;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+.footer-column ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer-column ul li{
+    margin-bottom:16px;
+}
+
+.footer-column ul li a{
+    color:#cbd5e1;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-column ul li a:hover{
+    color:#FFD43B;
+    padding-left:8px;
+}
+/* ===========================
+   SERVICES LIST
+=========================== */
+
+.service-list li{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:#cbd5e1;
+    margin-bottom:16px;
+    transition:.3s;
+}
+
+.service-list li svg{
+    color:#FFD43B;
+    font-size:16px;
+}
+
+.service-list li:hover{
+    color:#fff;
+    transform:translateX(6px);
+}
+
+/* ===========================
+   CONTACT
+=========================== */
+
+.footer-contact{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.footer-contact p{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+    color:#cbd5e1;
+    line-height:1.8;
+    margin:0;
+}
+
+.footer-contact svg{
+    color:#FFD43B;
+    font-size:18px;
+    margin-top:5px;
+    min-width:18px;
+}
+
+.footer-contact a{
+    color:#cbd5e1;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-contact a:hover{
+    color:#fff;
+}
+
+/* ===========================
+   DIRECTION BUTTON
+=========================== */
+
+.direction-btn{
+    margin-top:25px;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    background:#FFD43B;
+    color:#222;
+    padding:14px 22px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.3s;
+}
+
+.direction-btn:hover{
+    background:#fff;
+    transform:translateY(-3px);
+}
+
+/* ===========================
+   FOOTER BOTTOM
+=========================== */
+
+.footer-bottom{
+    border-top:1px solid rgba(255,255,255,.08);
+    background:#0b1220;
+}
+
+.footer-bottom-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+    gap:20px;
+}
+
+.footer-bottom p{
+    color:#94a3b8;
+    margin:0;
+    font-size:14px;
+}
+
+.footer-bottom strong{
+    color:#fff;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:1100px){
+
+.footer-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:768px){
+
+.footer-cta-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.footer-cta h2{
+    font-size:28px;
+}
+
+.cta-buttons{
+    justify-content:center;
+}
+
+.footer-grid{
+    grid-template-columns:1fr;
+    gap:40px;
+    text-align:left;
+}
+
+.footer-bottom-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.direction-btn{
+    width:100%;
+    justify-content:center;
+}
+
+}
+
+@media(max-width:480px){
+
+.footer{
+    margin-top:60px;
+}
+
+.footer-logo{
+    font-size:30px;
+}
+
+.footer-cta{
+    padding:35px 0;
+}
+
+.footer-cta h2{
+    font-size:24px;
+}
+
+.cta-owner,
+.cta-shop{
+    width:100%;
+    justify-content:center;
+}
+
+}

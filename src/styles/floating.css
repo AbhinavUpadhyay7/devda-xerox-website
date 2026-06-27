@@ -1,0 +1,60 @@
+.floating-container{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    z-index:999;
+}
+
+.floating-btn{
+    width:58px;
+    height:58px;
+    border:none;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    color:#fff;
+    cursor:pointer;
+    text-decoration:none;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.floating-btn:hover{
+    transform:scale(1.1);
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.owner{
+    background:#0d6efd;
+}
+
+.shop{
+    background:#ff9800;
+}
+
+.top{
+    background:#333;
+}
+
+@media(max-width:768px){
+
+.floating-container{
+    right:15px;
+    bottom:15px;
+}
+
+.floating-btn{
+    width:52px;
+    height:52px;
+    font-size:22px;
+}
+
+}
